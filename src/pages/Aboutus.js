@@ -14,39 +14,17 @@ import hlogoimg from "../assets/image/Blogs/h-logo.png";
 import flogoimg from "../assets/image/Blogs/f-logo.png";
 import appStoreimg from "../assets/image/Blogs/appstore.png";
 import googlePayimg from "../assets/image/Blogs/googleplay.png";
+import Header from './Header';
+import Footer from './Footer';
 
 
 const Aboutus = () => {
 
 
     return (
+
         <>
-            <header className='nav-header'>
-                <nav class="navbar">
-                    <div class="container">
-                        <div className='header-aline'>
-                            <div class="navbar-header">
-                                <a class="navbar-brand" href="#">
-                                    <img
-                                        alt="image"
-                                        src={hlogoimg}
-                                        className="pocketapp-logo"
-                                    /></a>
-                            </div>
-                            <ul class="nav navbar-nav menu">
-                                <li class="active"><a href="#">About us</a></li>
-                                <li><a href="#">News & Articles</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact us</a></li>
-                            </ul>
-                            <ul class="nav navbar-nav navbar-right bttn">
-                                {/* <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li> */}
-                                {/* <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Charity Login</a></li> */}
-                                <li><a href="#"> Charity Login</a></li>
-                            </ul></div>
-                    </div>
-                </nav>
-            </header>
+            <Header></Header>
             <section className='container'>
                 <div className='pocketapp-aboutus'>
                     <h2 className='bannerimg-head'>About</h2>
@@ -235,44 +213,7 @@ const Aboutus = () => {
                     />
                 </div>
             </section>
-
-
-
-
-            <footer className='container'>
-                <div className='pocket-footer '>
-                    <div className='footer-logopack'>
-                        <img
-                            alt="image"
-                            src={flogoimg}
-                            className="pocketapp-logo"
-                        /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                    <ul class="nav navbar-nav menu footer">
-                        <h2>Menu</h2>
-                        <li ><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li ><a href="#">News & Articles</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
-                    <div className='footer-socialmedia'>
-                        <h2>Join us and let’s make a better world, today</h2>
-                        <img
-                            alt="image"
-                            src={appStoreimg}
-                            className="pocketapp-logo"
-                        />
-                        <img
-                            alt="image"
-                            src={googlePayimg}
-                            className="pocketapp-logo"
-                        />
-                    </div>
-                </div>
-                <div className='copyrights'>
-                    <h5>copyright reserve pockets</h5>
-                </div>
-            </footer>
+            <Footer></Footer>
         </>
     )
 }

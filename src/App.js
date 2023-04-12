@@ -5,6 +5,8 @@ import Blog from "./pages/Blog";
 import Blogdetails from "./pages/Blogdetails";
 import Aboutus from "./pages/Aboutus";
 import Newsarticle from "./pages/Newsarticle";
+import Footer from "./pages/Footer";
+import Header from "./pages/Header";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route path="/blogdetails" element={<Blogdetails />} />
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/newsarticle" element={<Newsarticle />} />
+          <Route path="/footer" element={<Footer />} />
+          <Route path="/header" element={<Header />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -6,6 +6,8 @@ import hlogoimg from "../assets/image/Blogs/h-logo.png";
 import flogoimg from "../assets/image/Blogs/f-logo.png";
 import appStoreimg from "../assets/image/Blogs/appstore.png";
 import googlePayimg from "../assets/image/Blogs/googleplay.png";
+import Header from './Header';
+import Footer from './Footer';
 
 
 const Blogdetails = () => {
@@ -13,31 +15,7 @@ const Blogdetails = () => {
 
     return (
         <>
-            <header className='nav-header'>
-                <nav class="navbar">
-                    <div class="container">
-                        <div className='header-aline'>
-                            <div class="navbar-header">
-                                <a class="navbar-brand" href="#">  <img
-                                    alt="image"
-                                    src={hlogoimg}
-                                    className="pocketapp-logo"
-                                /></a>
-                            </div>
-                            <ul class="nav navbar-nav menu">
-                                <li ><a href="#">About us</a></li>
-                                <li><a href="#">News & Articles</a></li>
-                                <li class="active"><a href="#">Blog</a></li>
-                                <li><a href="#">Contact us</a></li>
-                            </ul>
-                            <ul class="nav navbar-nav navbar-right bttn">
-                                {/* <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li> */}
-                                {/* <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Charity Login</a></li> */}
-                                <li><a href="#"> Charity Login</a></li>
-                            </ul></div>
-                    </div>
-                </nav>
-            </header>
+            <Header></Header>
             <section className='container'>
                 <div>
                     <h2 className='bannerimg-head'>Blog</h2>
