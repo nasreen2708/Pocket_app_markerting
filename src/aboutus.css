@@ -42,6 +42,7 @@ img.pocketappblue {
     position: absolute;
     z-index: -1;
     top: 56rem;
+    height: 60rem;
     right: 0;
     left: 0;
     width: 100%;
