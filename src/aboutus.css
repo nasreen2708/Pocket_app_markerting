@@ -1,0 +1,226 @@
+.aboutus {
+    display: flex;
+    margin: 50px 0px 0px 0px;
+}
+
+.aboutus h2 span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 111%;
+    width: 100%;
+    color: #252947;
+    display: flex;
+}
+
+.aboutus h2 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    width: 50%;
+    font-size: 30px;
+    line-height: 140%;
+    color: #252947;
+}
+
+.aboutus p {
+    width: 50%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162.9%;
+    color: #252947;
+}
+
+.about-value {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+img.pocketappblue {
+    position: absolute;
+    z-index: -1;
+    top: 56rem;
+    height: 60rem;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+.pocketapp-aboutus img.pocketappban {
+    margin: 50px 0px;
+}
+
+.value_details span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 166.9%;
+    color: #383838;
+}
+
+.pocket-blog-details.AboutUs {
+    display: grid;
+    margin: 50px 0px;
+    justify-content: center;
+}
+
+.pocket-blog-details.AboutUs span {
+    text-align: center;
+    display: grid;
+}
+
+
+.aboutus_describe {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    margin: 0px 30px;
+    padding: 50px 30px;
+}
+
+.aboutus_describe h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #101010;
+}
+
+.aboutus_describe p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166.9%;
+    color: #878787;
+}
+
+.aboutus_describe_care {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+img.pocketappgrey {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 18%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    margin: 120px 0px 0px 0px;
+}
+
+img.pocketappblog-diffrence.about {
+    width: 100px;
+    height: 100px;
+}
+
+.blog-diffrence.about_us {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    margin: 10px 20px;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.blogdetails.about {
+    display: grid;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.blog-diffrence.about_us a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7FACD6;
+}
+
+.blog-diffrence.about_us p {
+    margin: 10px 0px 0px 0px;
+}
+
+.blog-diffrence.about_us_gallery {
+    width: 100%;
+}
+
+img.pocketappblog-diffrence.about_gallery {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+
+.pocket-aboutus_blesses {
+    margin-top: 10rem;
+}
+
+.blogdetails.about span {
+    text-align: center;
+}
+
+.blogdetails.about span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pocket-aboutus {
+    background: #F3EAF9;
+    border-radius: 32px;
+    margin-top: 15rem;
+    padding: 10px 20px 50px 20px;
+}
+
+.blogdetails.about h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 50rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 111%;
+    text-align: center;
+    color: #252947;
+}
+
+.blogdetails.about p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162.9%;
+    text-align: center;
+    color: #252947;
+    margin: 10px 20rem 30px 20rem;
+}
+
+img.pocketappblog-diffrence.about_cotimg {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+}
+
+.blog-diffrence.about_us_gallery_babyimgImg {
+    width: 100%;
+}
+
+img.pocketappblog-diffrence.about_us_gallery_babyimgImg {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+section.pocket_kid {
+    position: relative;
+    margin: 0rem 0rem 35rem 0rem;
+}
