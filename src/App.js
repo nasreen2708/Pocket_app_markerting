@@ -1,9 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
-import Forgot from "./pages/Forgot";
-import Newpassword from "./pages/Newpassword";
-import Otp from "./pages/Otp";
+import Home from './pages/Home'
+
 import Contactus from "./pages/Contactus";
 function App() {
   return (
