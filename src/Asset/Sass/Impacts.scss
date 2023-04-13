@@ -1,0 +1,257 @@
+.Impacts_head{
+    text-align: center;
+
+h1{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 53.28px;
+    margin-top: 0px;
+}    
+   span{
+        font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 111%;
+color: #252947;
+    }
+}
+.Impacts_para_Main{
+display: flex;
+justify-content: center;
+}
+.Impacts_para{
+width: 1077px;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 162.9%;
+text-align: center;
+color: #252947;
+font-family: "mulish";
+margin-top: 0px;
+}
+.Impacts_list {
+list-style-image: url('../images/Tick\ Circle.svg');
+li{
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+padding-bottom: 20px; 
+ color: #000000;}
+}
+
+.Impacts_Cards{
+    display: flex;
+    height: 108px;
+}.Impacts_Cards_Head{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    h1{
+        font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 162.9%;
+text-align: center;
+color: #383838;
+    }
+    span{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 162.9%;
+text-align: center;
+color: #878787;
+    }
+}
+.Impacts_Cards_Border1{
+    width: 7px;
+height: 108px;
+background: #CDC850;
+border-radius: 10px;
+margin-top: 10px;
+}
+.Impacts_Cards_Items1{
+    display: flex;
+    justify-content: space-around;
+    width: 308px;
+background: #FFFFFF;
+border-radius: 10px;
+
+    span{
+width: 58px;
+height: 16px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 162.9%;
+text-align: center;
+color: #CDC850;
+margin-left:10px;
+    }
+}
+
+.Impacts_Cards_Border2{
+    width: 7px;
+height: 108px;
+background: 
+#50CDC6;
+border-radius: 10px;
+margin-top: 10px;
+}
+.Impacts_Cards_Items2{
+    display: flex;
+    justify-content: space-around;
+    width: 308px;
+background: #FFFFFF;
+border-radius: 10px;
+
+    span{
+width: 58px;
+height: 16px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 162.9%;
+text-align: center;
+color:
+#50CDC6;
+margin-left:10px;
+    }
+}
+
+.Impacts_Cards_Border3{
+    width: 7px;
+height: 108px;
+background: 
+#505DCD;
+border-radius: 10px;
+margin-top: 10px;
+}
+.Impacts_Cards_Items3{
+    display: flex;
+    justify-content: space-around;
+    width: 308px;
+background: #FFFFFF;
+border-radius: 10px;
+
+    span{
+width: 58px;
+height: 16px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 162.9%;
+text-align: center;
+color:
+#505DCD;
+margin-left:10px;
+    }
+}
+
+.Map{
+    margin-top: 150px;
+    margin-bottom: 130px;
+}
+
+.News{
+    background: #EBF5FF;    padding-top: 120px;
+    padding-bottom: 120px;
+margin-bottom: 100px;
+.News_Card{
+    
+background: #FFFFFF;
+border-radius: 20px;
+width: 275px;
+height: 357px;
+}
+.News_Card_Head{
+    h1{
+        font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 162.9%;
+color: #252947;
+
+    }
+    h2{
+        font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 162.9%;
+color: #878787;
+    }
+
+}
+.News_Card_footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+
+    h2{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #000000;
+}}
+.News_Head{
+    margin-top: 40px;
+
+    span{
+        font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 111%;
+color: #252947;
+    }
+    h1{
+        font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height:53.28px;
+margin-top: 0%;
+    }
+    p{
+        
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 162.9%;
+width: 432px;
+height: 78px;
+
+color: #252947;
+    }
+    button{
+        
+background: #252947;
+border-radius: 18px;
+width: 222px;
+height: 64px;
+margin-top: 57px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 166.9%;
+color: #FFFFFF;
+    }
+}
+}

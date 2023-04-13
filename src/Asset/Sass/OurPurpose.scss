@@ -1,0 +1,259 @@
+
+.Purpose_Head{
+    text-align: center;
+    margin-top: 100px;
+    h1{
+        font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 57.72px;
+    color: #252947;
+    text-align: center;
+    margin-top: 0px;
+    }
+    span{
+        font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 111%;
+color: #252947;
+    }
+}
+    .Purpose_para_Main{
+        display: flex;
+        justify-content: center;
+    }
+    .Purpose_para{
+        width: 1077px;
+        // height: 78px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 162.9%;
+        text-align: center;
+        color: #252947;
+        font-family: mulish;
+    }
+    .Purpose_list {
+        display: flex;
+        justify-content: center;
+             ul{
+        margin-bottom: 58px;
+        list-style-image: url('../images/Tick\ Circle.svg');
+        }
+    li{
+
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        padding-bottom: 25px; 
+      color: #000000;}
+    }
+
+        .Results{
+            background: #EBF5FF;
+            border-radius: 32px;
+            margin-top: 120px;
+            margin-bottom: 120px;
+            padding-top: 50px;
+            }
+            .Results_Head{
+            width: 702px;
+            height: 146px;
+            h1{
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 111%;   
+            margin-top: 0px;
+            }   
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;      
+            text-align: center;
+            color: #252947;
+            }
+            .Results_Card{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 90px;
+    padding-bottom: 90px;
+            }
+            .Results_Card_Item1{
+            width: 301px;
+            height: 268px;
+            background: #FFFFFF;
+            border-radius: 32px;
+            margin-left: 10px;
+            text-align: center;
+            h1{
+                font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+
+color: #7CEAC9;
+            }
+            span{
+                font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+color: #878787;
+            }
+            }
+
+            .Results_Card_Item2{
+                width: 301px;
+                height: 268px;
+                background: #FFFFFF;
+                border-radius: 32px;
+                margin-left: 10px;
+                text-align: center;
+                h1{
+                    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    
+    color:
+    #7C8DEA;
+                }
+                span{
+                    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #878787;
+                }
+                }
+            
+                .Results_Card_Item3{
+                    width: 301px;
+                    height: 268px;
+                    background: #FFFFFF;
+                    border-radius: 32px;
+                    margin-left: 10px;
+                    text-align: center;
+                    h1{
+                        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 38px;
+        
+        color: 
+        #EA7CBE;
+                    }
+                    span{
+                        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #878787;
+                    }
+                    }
+
+                    .Results_Card_Item4{
+                        width: 301px;
+                        height: 268px;
+                        background: #FFFFFF;
+                        border-radius: 32px;
+                        margin-left: 10px;
+                        text-align: center;
+                        h1{
+                            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 38px;
+            
+            color: 
+            #EA7C7C
+                        }
+                        span{
+                            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+            color: #878787;
+                        }
+                        }
+
+
+            .Look-at-our-video_head{
+
+                font-family: 'Mulish';
+            font-style: normal;
+            h1{
+            font-weight: 700;
+            font-size: 52px;
+            margin-bottom: 30px;
+            }
+            span{
+                font-weight: 700;
+                font-size: 24px;
+                color:  #101010;
+
+            }
+            text-align: center;
+            margin-bottom: 230px;
+            color: #252947;
+            
+            }
+            
+            .Look-at-our-video_Item{
+             width: 1296px;
+            height: 536px;
+            background: #F3EAF9;
+            border-radius: 32px;
+            position: relative;
+            
+            .Look-at-our-video_Content{
+                display: flex;
+                justify-content: space-around;
+                margin-top: -100px;
+            }
+            h1{
+                
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 166.9%;
+// width: 404px;
+// height: 50px;
+text-align: center;
+
+color: #000000;
+            }
+            p{
+                font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 166.9%;
+text-align: center;
+width: 485px;
+height: 148px;
+color: #878787;
+            }
+            }
+           
+             .Look-at-our-video_Img img{
+            position: relative;
+            top: -180px;
+            left: 370px
+             }
