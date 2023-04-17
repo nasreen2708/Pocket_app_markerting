@@ -19,7 +19,7 @@ import "../Asset/Sass/OurPartners.scss";
 const OurPartners = () => {
 
     return (
-        <div>
+        <div className='container'>
             <section>
                 <Row justify={'center'}>
                     <Col md={10}>
@@ -27,19 +27,19 @@ const OurPartners = () => {
                             <span>Trusted by many,</span>
                             <h1>Our Partners</h1>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                            </p></div>   </Col>
+                            </p></div></Col>
                     <Col md={10}>
                         <div className='OurPartners_Card'>
-                        <div className='OurPartners_image'>
-                            <div><img src={Giving1} alt="image" /></div>
-                            <div><img src={Giving2} alt="image" /></div>
-                            <div><img src={Giving3} alt="image" /></div>
-                        </div>
-                        <div className='OurPartners_image'>
-                            <div><img src={Giving4} alt="image" /></div>
-                            <div><img src={Giving5} alt="image" /></div>
-                            <div><img src={Giving6} alt="image" /></div>
-                        </div>
+                            <div className='OurPartners_image'>
+                                <div><img src={Giving1} alt="image" /></div>
+                                <div><img src={Giving2} alt="image" /></div>
+                                <div><img src={Giving3} alt="image" /></div>
+                            </div>
+                            <div className='OurPartners_image'>
+                                <div><img src={Giving4} alt="image" /></div>
+                                <div><img src={Giving5} alt="image" /></div>
+                                <div><img src={Giving6} alt="image" /></div>
+                            </div>
                         </div>
                     </Col>
                 </Row>
@@ -54,7 +54,7 @@ const OurPartners = () => {
                     </Col>
                     <Col md={10}>
                         <div className="UpcomingEvents_Text">
-                            <h1>Join our upcoming events <br />for contribution</h1>
+                            <h1>Join our upcoming events <br/>for contribution</h1>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
                             <img src={AppStore} alt="image" />
                             <img src={GooglePlay} alt="image" />
@@ -66,7 +66,6 @@ const OurPartners = () => {
                 <div className='Customers_head'>
                     <h1>Our happy customers</h1>
                 </div>
-
                 <Carousel autoplay>
                     <div>
                         <Row justify={'center'}><Col md={10}>
@@ -99,20 +98,20 @@ const OurPartners = () => {
                     </div>
 
                     <div>
-                        <Row justify={'center'}><Col md={20}>
-
-                            <Card className='Customers_Card'>
-                                <div className='Customers_Card_head'>
-                                    <img src={Women} alt="image" />
-                                    <div>
-                                        <h1>Jane Doe</h1>
-                                        <span>17th Aug, 2022</span>
+                        <Row justify={'center'}>
+                            <Col md={20}>
+                                <Card className='Customers_Card'>
+                                    <div className='Customers_Card_head'>
+                                        <img src={Women} alt="image" />
+                                        <div>
+                                            <h1>Jane Doe</h1>
+                                            <span>17th Aug, 2022</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <p className='Customers_Card_para'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
-                                <div className='Customers_Card_border'></div>
-                            </Card>
-                        </Col>
+                                    <p className='Customers_Card_para'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                                    <div className='Customers_Card_border'></div>
+                                </Card>
+                            </Col>
                         </Row>
                     </div>
                 </Carousel>

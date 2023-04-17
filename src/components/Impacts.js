@@ -7,10 +7,12 @@ import Arrow from '../Asset/images/arrow-right.svg'
 import study2 from '../Asset/images/Rectangle 40147.svg'
 
 const Impacts = () => {
+
     let data = [{ id: "1", head: "Study Support", CName: "Impacts_Cards_Items1", BName: "Impacts_Cards_Border1" }, { id: "2", head: "Food ", CName: "Impacts_Cards_Items2", BName: "Impacts_Cards_Border2" }, { id: "3", head: "Study Support", CName: "Impacts_Cards_Items3", BName: "Impacts_Cards_Border3" }
     ]
+
     return (
-        <div>
+<div className='container'>
             <section>
                 <Row justify="center">
                     <Col md={20}>
@@ -21,6 +23,7 @@ const Impacts = () => {
                         </div>
                     </Col>
                 </Row>
+
                 <Row justify="center">
                     <Col md={7}>
                         <ul className='Impacts_list'>
@@ -30,14 +33,15 @@ const Impacts = () => {
                         </ul>
                     </Col>
                 </Row>
+
                 <Row justify="center">
                     {data.map((data) => {
                         return (
                             <>
-                                <Col md={6}>
-                                    <Card >
+                                <Col md={7}>
                                         <div className='Impacts_Cards'>
-                                            <div className={data.BName}></div>
+                                        <div className={data.BName}></div>
+
                                             <div>
                                                 <div className='Impacts_Cards_Head'>
                                                     <h1>{data.head}</h1><span>No. of Campaign ; 23</span></div>
@@ -53,13 +57,12 @@ const Impacts = () => {
                                                     <div><span>Niger</span></div>
                                                 </div>
                                             </div></div>
-                                    </Card>
-
                                 </Col>
                             </>
                         )
                     })}
                 </Row>
+
             </section>
 
             <section>
@@ -82,6 +85,7 @@ const Impacts = () => {
                                 <div className='News_Card_footer'> <h2 >Read more</h2><img src={Arrow} alt='image' /></div>
                             </div>
                     </Col>
+
                     <Col md={7}>
                             <div className='News_Card'>
                                 <img src={study2} alt='image' width="100%" />
@@ -90,20 +94,20 @@ const Impacts = () => {
                                 <div className='News_Card_footer'> <h2 >Read more</h2><img src={Arrow} alt='image' /></div>
                             </div>
                     </Col>
+
                     <Col md={8}>
                         <div className='News_Head'>
                             <span>News & Resources</span>
                             <h1>Read our latest news</h1>
-
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             </p>
                             <button type='button'>Read more news</button>
                         </div>
-
                     </Col>
                 </Row>
             </section>
+            
         </div>
     )
 }
