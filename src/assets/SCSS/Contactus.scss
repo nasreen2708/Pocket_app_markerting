@@ -8,12 +8,15 @@
     // margin-top: 181px;
     font-size: 52px;
     font-weight: 700;
+    color: #252947;
 }
 
 .heading_here_we_are{
     margin-top: 101px;
     font-size: 22px;
     font-weight: 600;
+    width: 322px;
+    color: #252947;
   
 }
 
@@ -22,6 +25,8 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 700;
+    width: 322px;
+    color: #252947;
 }
 
 .pockets_lorem_ipsum{
@@ -29,6 +34,7 @@
     font-size: 16px;
     font-weight: 400;
     width: 537px;
+    color: #252947;
 }
 
 .pockets_but_partner{
@@ -39,6 +45,7 @@
     background-color: white;
     font-size: 18px;
     font-weight: 600;
+    color: #252947;
 }
 
 .pockets_contactus_image{
@@ -53,18 +60,25 @@
 .pockets_address{
     width: 252px;
 }
-.hi{
+.pockets_contactus_address{
     display: flex;
+    color: #252947;
 
 }
+
+.pockets_contactus_address_2{
+    margin-left: 20px;
+}
 .pockets_card{
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 20px;
+    box-shadow: 0px 10px 32px 0px #00000014;
+
 }
 
 
 .pockets_tabspage{
     padding-top: 100px;
+    padding-left: 48px;
 }
 
 
@@ -104,4 +118,7 @@ margin-top: 86px;
 .pockets_contact_{
     display: flex;
     justify-content: center;
+}
+.ant-tabs-ink-bar{
+    width: 500px;
 }

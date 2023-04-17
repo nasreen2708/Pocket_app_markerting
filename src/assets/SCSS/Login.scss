@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 *{font-family: 'Mulish', sans-serif;}
+*{color: #252947;}
+
+
+
+.pockets_body_color{
+    background-color: #F5FAFF;
+  height: auto;
+}
 
 .pockets_login_image{
     height: 825px;
@@ -18,7 +26,7 @@
      
   
    padding-top: 99px;
-   padding-bottom: 99px;
+   padding-bottom: 90px;
     display: flex;
     justify-content: center; 
 
@@ -57,10 +65,13 @@ margin-top: 32px;
     background-color: #252947;
     color:white;
     margin-top: 94px;
+    border-radius: 8px;
+    border: none;
 }
 .pockets_email_verification{
     height: 58px;
     width: 403px;
+
 }
 .pockets_password{
     height: 58px;
@@ -73,13 +84,12 @@ margin-top: 32px;
     width: 400px;
    
 }
-
+.pockets_otp_box{
+    width: 32px; height: 32px; text-align: center; margin-right: 20px;
+   
+}
 
 
 .pockets_pass_hints{
     width: 300px;
-}
-.pockets_body_color{
-    background-color: #F5FAFF;
-  
 }
