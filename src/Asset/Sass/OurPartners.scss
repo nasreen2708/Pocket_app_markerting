@@ -1,3 +1,25 @@
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}  
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  
 .OurPartners_head{
     span{
         font-family: 'Mulish';
@@ -14,6 +36,7 @@ color: #252947;
     font-size: 52px;
     line-height:  57.72px;
     margin-top: 0px;
+    color: #252947;
     }
     p{
         width: 406px;
@@ -48,9 +71,8 @@ border-radius: 16px;
 }
 
 .UpcomingEvents{
-    margin-top: 100px;
     margin-bottom: 120px;
-
+    margin-top: 130px;
 .UpcomingEvents_img1{
     position: relative;
     .UpcomingEvents_img2{
@@ -61,6 +83,7 @@ border-radius: 16px;
 }
 .UpcomingEvents_Text{
     h1{
+        width: 648px;
         font-family: 'Mulish';
 font-style: normal;
 font-weight: 700;
@@ -140,7 +163,7 @@ width: 521px;
 width: 576px;
 height: 4px;
 background: #3CDB97;
-margin-left: -30px;
+margin-left: -15px;
 margin-top: 110px;
 }}
 

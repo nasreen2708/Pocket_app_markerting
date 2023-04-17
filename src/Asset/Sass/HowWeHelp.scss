@@ -1,3 +1,25 @@
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}  
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  
 .HowWeHelp{
     margin-top: 100px;
     margin-bottom: 150px;
@@ -8,14 +30,13 @@
 font-style: normal;
 font-weight: 700;
 font-size: 52px;color: #252947;
-line-height: 1px;
     }
 span{
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 29px;
-color:#101010;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #101010;
 }
 }
 
@@ -49,14 +70,15 @@ color: #878787;
     padding-bottom: 50px;
     background: #F5F5F5;
 .Join-Us_head{
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 52px;
-line-height: 65px;
-color: #252947;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 65px;
+  color: #252947;
+  margin-top: 50px;
 }
 .Join-Us_Image{
     margin-right: 50px;
-    margin-top: 30px;
+    margin-top: 50px;
 }}

@@ -1,4 +1,27 @@
 
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+}  
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  
 .Purpose_Head{
     text-align: center;
     margin-top: 100px;
@@ -27,14 +50,15 @@ color: #252947;
     }
     .Purpose_para{
         width: 1077px;
-        // height: 78px;
+        font-family: 'Mulish';
         font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
+        font-weight: 400;
+        font-size: 16px;
         line-height: 162.9%;
         text-align: center;
         color: #252947;
-        font-family: mulish;
+        margin-top: 13px;
+        margin-bottom: 30px;
     }
     .Purpose_list {
         display: flex;
@@ -62,23 +86,23 @@ color: #252947;
             padding-top: 50px;
             }
             .Results_Head{
-            width: 702px;
-            height: 146px;
+text-align: center;            
             h1{
             font-family: 'Mulish';
             font-style: normal;
-            font-weight: 600;
-            font-size: 50px;
-            line-height: 111%;   
+            font-weight: 700;
+            font-size: 52px;
+            line-height:  57.72px;   
             margin-top: 0px;
-            }   
+            }
+            span{   
             font-family: 'Mulish';
             font-style: normal;
             font-weight: 600;
             font-size: 25px;      
             text-align: center;
             color: #252947;
-            }
+            }}
             .Results_Card{
                 display: flex;
                 justify-content: space-around;
@@ -203,10 +227,9 @@ color: #878787;
             margin-bottom: 30px;
             }
             span{
-                font-weight: 700;
-                font-size: 24px;
-                color:  #101010;
-
+                font-weight: 600;
+                font-size: 22px;
+                color: #101010;
             }
             text-align: center;
             margin-bottom: 230px;
@@ -220,23 +243,19 @@ color: #878787;
             background: #F3EAF9;
             border-radius: 32px;
             position: relative;
-            
+            margin-left: -100px;
             .Look-at-our-video_Content{
                 display: flex;
                 justify-content: space-around;
                 margin-top: -100px;
             }
-            h1{
-                
+            h1{           
 font-family: 'Mulish';
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
 line-height: 166.9%;
-// width: 404px;
-// height: 50px;
 text-align: center;
-
 color: #000000;
             }
             p{
@@ -255,5 +274,4 @@ color: #878787;
              .Look-at-our-video_Img img{
             position: relative;
             top: -180px;
-            left: 370px
-             }
+            left: 367px;             }
