@@ -1,0 +1,176 @@
+.newsarticle {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    width: 40%;
+}
+
+.newsarticles {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+}
+
+img.pocketapp_news {
+    width: 100%;
+}
+
+.newsarticle h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 162.9%;
+    color: #252947;
+}
+
+.newsarticles h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 162.9%;
+    color: #252947;
+}
+
+
+.newsarticles p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162.9%;
+    color: #878787;
+    text-align: justify;
+}
+
+.newsarticle p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162.9%;
+    color: #878787;
+    text-align: justify;
+}
+
+.newsabc {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.newsabc h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7FACD6;
+}
+
+.newsabc label {
+    margin: 0 0 0 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #C2C2C2;
+}
+
+.news_articlesdetails {
+    padding: 0px 30px 30px 30px;
+}
+
+.news-value {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.newsarticle {
+    width: 50%;
+    margin: 0px 10px 10px 0px;
+}
+
+.newscircle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsarticle {
+    width: 50%;
+    margin: 18px;
+}
+
+.newsarticle.features {
+    display: flex;
+    width: 100%;
+}
+
+img.pocketapp_news.features {
+    width: 50%;
+    border-radius: 30px;
+}
+
+.explore_news span {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: justify;
+    color: #606060;
+}
+
+.explore_news {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 30px 30px 30px;
+}
+
+.explore_news h2 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 111%;
+    color: #252947;
+}
+
+button.refresh_bttn {
+    width: 140px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 14px;
+}
+
+img.pocketapp_news.features.refresh {
+    width: auto;
+    margin-right: 10px;
+}
+
+.featurenews {
+    display: flex;
+}
+
+.newsarticle.features.describe {
+    display: grid;
+    box-shadow: none;
+    color: transparent;
+    width: 100%;
+    margin: 50px;
+}
+
+.blogdetails.about_news {
+    display: flex;
+    margin-top: 35rem;
+}
+
+.newsarticle.features_news {
+    padding: 30px;
+}
+
+section.pocket_kid.articlenews {
+    position: relative;
+    margin-bottom: 50px;
+}

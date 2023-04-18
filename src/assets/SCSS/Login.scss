@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{font-family: 'Mulish', sans-serif;}
+*{color: #252947;}
+
+
+
+.pockets_body_color{
+    background-color: #F5FAFF;
+  height: auto;
+}
+
+.pockets_login_image{
+    height: 825px;
+    width:625px ;
+}
+
+.pockets_right_container{
+
+    height: 825px;
+    width:625px ;
+    background: 
+    #FFFFFF;
+    padding-left: 94px;
+}
+.pockets_main_container{
+     
+  
+   padding-top: 99px;
+   padding-bottom: 90px;
+    display: flex;
+    justify-content: center; 
+
+
+}
+
+
+.pockets_login_heading{
+    margin-top: 145px;
+    
+    font-size: 32px;
+    width: 400px;
+}
+
+.pockets_hints{
+  
+    font-size: 16px;
+    margin-top: 16px;
+    width: 400px;
+   
+
+}
+
+.pocktes_email_text{
+    margin-top: 64px;
+   
+}
+
+.pockets_password_title{
+margin-top: 32px;
+
+}
+.pocket_login_button{
+    width: 403px;
+    height: 64px;
+    background-color: #252947;
+    color:white;
+    margin-top: 94px;
+    border-radius: 8px;
+    border: none;
+}
+.pockets_email_verification{
+    height: 58px;
+    width: 403px;
+
+}
+.pockets_password{
+    height: 58px;
+    width: 403px;
+    margin-top: 0px;
+}
+.pockets_forgot_password{
+    margin-left: 295px;
+    cursor: pointer;
+    width: 400px;
+   
+}
+.pockets_otp_box{
+    width: 32px; height: 32px; text-align: center; margin-right: 20px;
+   
+}
+
+
+.pockets_pass_hints{
+    width: 300px;
+}
