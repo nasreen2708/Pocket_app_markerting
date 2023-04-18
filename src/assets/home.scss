@@ -1,0 +1,859 @@
+.Pockets_marketing_container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+
+    .Pockets_home_content {
+        margin: 300px 0px 0px 0px;
+
+    }
+
+    .Pockets_home_playstore_icon {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .Pockets_home_child_img>img {
+        width: 100%;
+        position: absolute;
+    }
+
+    .Pockets_home_heading {
+        font-family: Mulish;
+        font-size: 30px;
+
+    }
+
+    .Pockets_home_para>p {
+        color: #878787;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    .Pockets_home_apple_icon>img {
+        margin-left: 10px;
+    }
+
+    .Pockets_marketing_about_title>h3 {
+        color: #000000;
+        font-family: 'Mulish';
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 38px;
+        margin-top: 75px;
+    }
+
+    .Pockets_marketing_about_sub_title>h2 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 63px;
+        color: #101010;
+    }
+
+    .Pockets_marketing_about_content>p {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 162.9%;
+        color: #878787;
+    }
+
+    .Pockets_marketing_children_image>img {
+        width: 90%;
+    }
+
+    .Pockets_marketing_childone_image>img {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .Pockets_marketing_childsmile_image>img {
+        width: 90%;
+    }
+
+    .Pockets_marketing_about_vector_icon {
+
+        p {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+            color: #000000;
+        }
+
+        img {
+            margin: 0px 6px -6px 0px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .Pockets_marketing_container {
+        width: 750px;
+    }
+
+    @media (min-width: 992px) {
+        .Pockets_marketing_container {
+            width: 970px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .Pockets_marketing_container {
+            width: 1170px;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .Pockets_marketing_container {
+            width: 1320px;
+        }
+    }
+
+}
+
+.Pockets_marketing_horizontal {
+    width: 75%;
+    border: 1px solid rgba(214, 214, 214, 1);
+}
+
+.Pockets_marketing_horizontal_goal {
+    border: 1px solid #D6D6D6;
+    width: 75%;
+    margin-top: 100px;
+}
+
+.Pockets_marketing_humans {
+    background-color: rgba(104, 130, 160, 0.1);
+    padding-top: 250px;
+    margin-top: 50px;
+    padding-bottom: 210px;
+}
+
+.Pockets_marketing_achivements {
+    display: flex;
+    justify-content: center;
+
+    .Pockets_marketing_achivements_options {
+        h3 {
+            text-align: center;
+            font-size: 50px;
+            font-weight: 700;
+            font-family: 'Mulish';
+        }
+
+        p {
+            color: #878787;
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            margin-top: -50px;
+        }
+
+    }
+}
+
+.Pockets_marketing_results {
+    margin-top: 190px;
+
+
+    .Pockets_marketing_results_title {
+        h3 {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 38px;
+            color: #000000;
+        }
+
+        h2 {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 63px;
+            color: #101010;
+        }
+    }
+}
+
+.Pockets_marketing_results_icon {
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+
+    .Pockets_marketing_results_water {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .Pockets_marketing_results_houses_img {
+        img {
+            margin-left: 30px;
+        }
+    }
+
+    .Pockets_marketing_results_achivements {
+        margin: 0 0px 0 30px;
+
+        h4 {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 38px;
+            margin: 0px;
+        }
+
+        p {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+            margin: 0px;
+        }
+    }
+}
+
+.Pockets_marketing_results_childrens_pic {
+    img {
+        width: 100%;
+    }
+}
+
+.Pockets_marketing_video_pic {
+    img {
+        width: 100%;
+        margin-top: 75px;
+    }
+}
+
+.Pockets_marketing_video_content {
+    text-align: center;
+    position: relative;
+    margin: 250px 0 0 0;
+    background-color: #252947;
+    ;
+
+    h4 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 38px;
+        padding-top: 65px;
+        color: #FFFFFF;
+    }
+
+    h2 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 63px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .Pockets_video_playstore_icon {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 450px;
+    }
+
+    .Pockets_video_apple_icon {
+        img {
+            margin-left: 20px;
+        }
+    }
+
+}
+
+.Pockets_marketing_video_smallchild {
+    display: flex;
+    justify-content: center;
+
+    .Pockets_marketing_video_smallchild_image {
+        img {
+            width: 100%;
+            margin: -350px 0 0 0;
+            position: relative;
+        }
+    }
+}
+
+.Pockets_marketing_video_playbutton {
+    img {
+        position: absolute;
+        margin: -400px 0 0 580px;
+    }
+}
+
+.Pockets_marketing_goal {
+    display: flex;
+    margin: 0px 0 0 0;
+
+    h4 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 166.9%;
+        color: #000000;
+    }
+
+    p {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 166.9%;
+        color: #878787;
+    }
+}
+
+.Pockets_marketing_help {
+    h5 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 166.9%;
+        color: #000000;
+        margin-top: 200px;
+    }
+
+    h3 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 63px;
+        color: #101010;
+    }
+}
+
+.Pockets_marketing_help_card {
+    width: 330px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    text-align: center;
+
+    img {
+        width: 35%;
+    }
+
+    h4 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 38px;
+        margin: 5px 0px 0px 0px;
+        color: #101010;
+    }
+
+    p {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 166.9%;
+        margin: 5px 0 0 0;
+        color: #878787;
+    }
+}
+
+.Pockets_marketing_environmental_help {
+    margin: 40px 0 0 0;
+}
+
+.Pockets_marketing_join {
+    background: #252947;
+    border-radius: 64px;
+    display: flex;
+    padding-bottom: 70px;
+    padding-top: 80px;
+    padding-left: 25px;
+    background-image: url(../images/Ellipse3.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 200px;
+    margin-bottom: -160px;
+    position: relative;
+
+    h4 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+
+    .Pockets_join_playstore_icon {
+        display: flex;
+        padding: 65px 0 0 225px;
+
+
+        .Pockets_join_apple_icon {
+
+            // background-image: url(../images/Ellipse4.svg);
+            // background-repeat: no-repeat;
+            img {
+                margin-left: 20px;
+
+            }
+        }
+
+    }
+}
+
+.Pockets_marketsing_aboutus {
+
+    background-color: rgba(104, 130, 160, 0.1);
+    // background-color: aqua;
+
+    .Pockets_marketing_our {
+        padding: 300px 0 100px 0;
+    }
+
+    .Pockets_marketing_african {
+        img {
+            width: 100%;
+            position: absolute;
+        }
+    }
+
+    .Pockets_marketing_dummy_text {
+        background: #FFFFFF;
+        border: 1px solid #EDEDED;
+        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.05);
+        border-radius: 12px;
+        width: 300px;
+        padding: 0 0 0 25px;
+        position: relative;
+        margin: 495px 0 0 300px;
+
+        p {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 166.9%;
+            color: #878787;
+
+        }
+
+        h5 {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 166.9%;
+            color: #000000;
+        }
+    }
+
+    .Pockets_marketing_our_results {
+        margin: 0 0 0 100px;
+
+        h4 {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 38px;
+            color: #000000;
+            margin: 0px;
+        }
+
+        h3 {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 63px;
+            color: #101010;
+        }
+
+        p {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 166.9%;
+            color: #878787;
+        }
+    }
+
+    .Pockets_marketing_our_results_button {
+        Button {
+            background: #252947;
+            border-radius: 8px;
+            color: #FFFFFF;
+            border: none;
+            padding: 25px;
+            display: flex;
+            align-items: center;
+            margin-top: 90px;
+        }
+    }
+}
+
+.Pockets_marketing_news {
+    text-align: center;
+    margin-top: 200px;
+
+    h4 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 38px;
+        color: #252947;
+    }
+
+    h2 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 63px;
+        color: #101010;
+    }
+}
+
+.Pockets_marketing_news_articles_picture {
+    img {
+        width: 95%;
+        position: relative;
+    }
+}
+
+.Pockets_marketing_news_articles {
+
+    width: 445px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    padding: 0 0 0 30px;
+    position: absolute;
+    margin: -120px 0 0 0;
+
+    p {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 38px;
+        color: #101010;
+    }
+
+    h6 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        color: #000000;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    img {
+        margin-bottom: -5px;
+    }
+
+    .Pockets_marketing_news_articles_text {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+
+        h3 {
+            border: 1px solid #C2C2C2;
+            border-radius: 12px;
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 28px;
+            padding: 15px 40px;
+        }
+
+        p {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 28px;
+            color: #878787;
+            margin: 0 0 0 15px;
+        }
+    }
+}
+
+.Pockets_marketing_read_button {
+    text-align: center;
+    margin-top: 400px;
+    padding-bottom: 200px;
+
+    Button {
+
+        padding: 10px 20px 40px 20px;
+        // gap: 10px;
+        background: #252947;
+        border-radius: 8px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 166.9%;
+        color: #FFFFFF;
+        border: none;
+    }
+}
+
+.Pockets_marketing_mobile_text {
+    display: flex;
+    background: rgba(104, 130, 160, 0.1);
+
+    .Pockets_marketing_mobile_picture {
+        img {
+            width: 100%;
+            margin: 70px 0 -63px 54px;
+        }
+    }
+
+    .Pockets_marketing_join_events {
+        margin: 0 20px 0 100px;
+
+        h3 {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 63px;
+            margin: 190px 0 0 0;
+            color: #000000;
+        }
+
+        p {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 166.9%;
+            width: 450px;
+            color: #878787;
+        }
+
+        img {
+            width: 240px;
+        }
+    }
+}
+
+.Pockets_marketing_customers {
+    h3 {
+        text-align: center;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 63px;
+        color: #252947;
+        margin-top: 260px;
+    }
+}
+
+.Pockets_marketing_michel {
+    img {
+        width: 400px;
+        position: relative;
+    }
+}
+
+.Pockets_marketing_group {
+    img {
+        position: absolute;
+        margin: -45px 0 0 25px;
+    }
+}
+
+
+.Pockets_marketing_michel_content {
+    padding: 0 0 0 20px;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    margin: 0px 0 0 15px;
+    width: 350px;
+
+    p {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 166.9%;
+        width: 290px;
+        color: #878787;
+        margin: 30px 0 0 0px;
+    }
+
+    h5 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 28px;
+        color: #101010;
+    }
+
+    h6 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #878787;
+        margin: -30px 0 50px 0;
+    }
+
+}
+
+.Pockets_marketing_allison {
+    img {
+        width: 400px;
+    }
+}
+
+.Pockets_marketing_danie {
+    img {
+        width: 400px;
+    }
+}
+
+.Pockets_marketing_footer {
+    margin: 100px 0 0 0;
+    background: rgba(104, 130, 160, 0.1);
+    padding: 100px 0 0 0;
+
+    h5 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 27px;
+        color: #252947;
+    }
+
+    img {
+        margin: 0 15px -25px 0;
+    }
+
+    p {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 166.9%;
+        width: 330px;
+        color: #878787;
+    }
+
+    .Pockets_marketing_footer_menu {
+
+
+        h2 {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 28px;
+            color: #000000;
+        }
+
+        h3 {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 28px;
+            color: #878787;
+            margin-top: 56px;
+        }
+
+        h4 {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 28px;
+            color: #878787;
+        }
+
+        h5 {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 28px;
+            color: #878787;
+            margin-bottom: 220px;
+        }
+    }
+}
+
+.Pockets_marketing_footer_joinus {
+    background: #252947;
+    border-radius: 12px;
+    padding: 90px 0 115px 120px;
+
+    .Pockets_marketing_footer_joinus_roundpic {
+        img {
+            margin: -90px 0px 0 -120px;
+        }
+    }
+
+    .Pockets_markteing_footer_roundshape_pic {
+        img{
+            margin: -86px 0 -120px 30px;
+        }
+    }
+
+    .Pockets_marketing_footer_Joinus_content {
+        margin: 0px 0 0 -60px;
+        h4 {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 28px;
+            color: #FFFFFF;
+            margin: -110px 0 25px 0;
+        }
+
+        .Pockets_marketing_footer_appstore {
+            img {
+                margin-top: 40px;
+            }
+        }
+
+       
+    }
+}
