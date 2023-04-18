@@ -38,7 +38,7 @@ const Login = () => {
                               and typesetting industry.
                             </p>
                           </div>
-                          <h4 className="pocktes_email_text">Email Id</h4>
+                          <h4 className="pocktes_email_text">Email ID</h4>
                           <Form.Item
                             name="email"
                             rules={[
@@ -143,27 +143,23 @@ const Login = () => {
                             typesetting industry.
                           </p>
                           <h4 className="pocktes_email_text">Enter OTP</h4>
-                          <Form.Item
-                          // name="email"
-                          // rules={[
-                          //   {
-                          //     type: "email",
-                          //     message: "The input is not valid E-mail!",
-                          //   },
-                          //   {
-                          //     required: true,
-                          //     message: "Please input your E-mail!",
-                          //   },
-                          // ]}
-                          >
-                            <OTPInput
-                              value={OTP}
-                              onChange={setOTP}
-                              autoFocus
-                              OTPLength={4}
-                              otpType="number"
-                              disabled={false}
-                            />
+                          <Form.Item >
+                            <div>
+                             
+                              <OTPInput
+                                value={OTP}
+                                onChange={setOTP}
+                                autoFocus
+                        
+                                OTPLength={4}
+                                otpType="number"
+                                disabled={false}
+                                className="pockets_otp_box" 
+                               
+                            
+                              />
+                   
+                            </div>
                           </Form.Item>
 
                           <button
