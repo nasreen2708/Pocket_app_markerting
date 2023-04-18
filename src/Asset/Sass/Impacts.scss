@@ -191,11 +191,11 @@ margin-left:10px;
     background: #EBF5FF;    padding-top: 120px;
     padding-bottom: 120px;
 margin-bottom: 100px;
+padding-left: 40px;
 .News_Card{
-    
 background: #FFFFFF;
 border-radius: 20px;
-width: 237px;
+width: 275px;
 height: 357px;
 }
 .News_Card_Head{
@@ -222,7 +222,6 @@ color: #878787;
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
-
     h2{
 font-family: 'Mulish';
 font-style: normal;
@@ -230,6 +229,7 @@ font-weight: 500;
 font-size: 12px;
 line-height: 15px;
 color: #000000;
+margin-top: 0px;
 }}
 .News_Head{
     margin-top: 40px;

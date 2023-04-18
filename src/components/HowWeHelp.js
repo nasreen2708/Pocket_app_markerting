@@ -15,60 +15,77 @@ const HowWeHelp = () => {
         <div className='container'>
 
             <section className='HowWeHelp'>
-                <Row justify={'center'}>
-                    <Col md={10}>
+                <Row>
+                    <Col md={12}>
                         <div className='HowWeHelp_Head'>
                             <h1>How we help?</h1>
                             <span>What are we doing to assist these <br />communities?</span>
                         </div>
                     </Col>
 
-                    <Col md={5}>
+                    <Col md={6}>
                         <Card className='HowWeHelp_Card'>
+                        <div className='HowWeHelp_num'>
                             <img src={Home} alt="image" />
+                            <h1>01</h1>
+                            </div>
                             <h1>House & shelter</h1>
                             <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </span>
                         </Card>
                     </Col>
 
-                    <Col md={5}>
+                    <Col md={6}>
                         <Card className='HowWeHelp_Card'>
+                        <div className='HowWeHelp_num'>
                             <img src={Heart} alt="image" />
-
+                            <h1>02</h1>
+                            </div>
                             <h1>Love & support</h1>
                             <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </span>
                         </Card>
                     </Col>
                 </Row>
 
-                <Row justify={'center'}>
-                    <Col md={5}>
+                <Row >
+                    <Col md={6}>
                         <Card className='HowWeHelp_Card'>
+                        <div className='HowWeHelp_num'>
                             <img src={Cap} alt="image" />
+                            <h1>03</h1>
+                            </div>
                             <h1>Food & groceries</h1>
                             <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </span>
                         </Card>
                     </Col>
 
-                    <Col md={5}>
+                    <Col md={6}>
                         <Card className='HowWeHelp_Card'>
+                        <div className='HowWeHelp_num'>
                             <img src={Tree} alt="image" />
+                            <h1>04</h1>
+                            </div>
                             <h1>Environmental help</h1>
                             <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </span>
                         </Card>
                     </Col>
 
-                    <Col md={5}>
+                    <Col md={6}>
                         <Card className='HowWeHelp_Card'>
+                        <div className='HowWeHelp_num'>
                             <img src={Education} alt="image" />
+                            <h1>05</h1>
+                            </div>
                             <h1>Education</h1>
                             <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </span>
                         </Card>
                     </Col>
 
-                    <Col md={5}>
+                    <Col md={6}>
                         <Card className='HowWeHelp_Card'>
+                            <div className='HowWeHelp_num'>
                             <img src={Plus} alt="image" />
+                            <h1>06</h1>
+                            </div>
                             <h1>Health & insurance</h1>
                             <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </span>
                         </Card>

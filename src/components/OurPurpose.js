@@ -32,7 +32,7 @@ const OurPurpose = () => {
 
       <Row>
         <Col span={24}>
-          <img src={Child} width="100%" alt='childimg' />
+          <img src={Child} width="100%" alt='childimg'/>
         </Col>
       </Row>
 

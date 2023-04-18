@@ -67,7 +67,7 @@ const Impacts = () => {
 
             <section>
                 <Row justify={'center'}>
-                    <Col md={18}>
+                    <Col md={20}>
                         <div className='Map'>
                             <img src={Map} alt='image' width="100%" />
                         </div>
@@ -77,7 +77,7 @@ const Impacts = () => {
 
             <section className='News'>
                 <Row justify={'center'}>
-                    <Col md={5}>
+                    <Col md={7}>
                             <div className='News_Card'>
                                 <img src={study1} alt='image' width="100%" />
                                 <div className='News_Card_Head'>    <h1>Lorem Ipsum is simply dummy text </h1>
@@ -95,7 +95,7 @@ const Impacts = () => {
                             </div>
                     </Col>
 
-                    <Col md={8}>
+                    <Col md={10}>
                         <div className='News_Head'>
                             <span>News & Resources</span>
                             <h1>Read our latest news</h1>

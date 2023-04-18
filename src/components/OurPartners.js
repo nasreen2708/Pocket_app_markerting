@@ -22,13 +22,13 @@ const OurPartners = () => {
         <div className='container'>
             <section>
                 <Row justify={'center'}>
-                    <Col md={10}>
+                    <Col md={12}>
                         <div className='OurPartners_head'>
                             <span>Trusted by many,</span>
                             <h1>Our Partners</h1>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                             </p></div></Col>
-                    <Col md={10}>
+                    <Col md={12}>
                         <div className='OurPartners_Card'>
                             <div className='OurPartners_image'>
                                 <div><img src={Giving1} alt="image" /></div>
@@ -47,12 +47,12 @@ const OurPartners = () => {
 
             <section className='UpcomingEvents'>
                 <Row justify={'center'}>
-                    <Col md={10}>
+                    <Col md={12}>
                         <div className="UpcomingEvents_img1"><img src={Phone1} alt="image" />
                             <div className="UpcomingEvents_img2"><img src={Phone2} alt="image" /></div>
                         </div>
                     </Col>
-                    <Col md={10}>
+                    <Col md={12}>
                         <div className="UpcomingEvents_Text">
                             <h1>Join our upcoming events <br/>for contribution</h1>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
@@ -68,7 +68,7 @@ const OurPartners = () => {
                 </div>
                 <Carousel autoplay>
                     <div>
-                        <Row justify={'center'}><Col md={10}>
+                        <Row><Col md={12}>
                             <Card className='Customers_Card'>
                                 <div className='Customers_Card_head'>
                                     <img src={Women} alt="image" />
@@ -82,7 +82,7 @@ const OurPartners = () => {
                             </Card>
                         </Col>
 
-                            <Col md={10}>
+                            <Col md={12}>
                                 <Card className='Customers_Card'>
                                     <div className='Customers_Card_head'>
                                         <img src={men} alt="image" />
@@ -99,7 +99,7 @@ const OurPartners = () => {
 
                     <div>
                         <Row justify={'center'}>
-                            <Col md={20}>
+                            <Col md={24}>
                                 <Card className='Customers_Card'>
                                     <div className='Customers_Card_head'>
                                         <img src={Women} alt="image" />

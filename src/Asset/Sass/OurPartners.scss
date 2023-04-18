@@ -72,7 +72,10 @@ border-radius: 16px;
 
 .UpcomingEvents{
     margin-bottom: 120px;
-    margin-top: 130px;
+    margin-top: 100px;
+    padding-top: 50px;
+    background: #FFFFFF;
+    box-shadow: inset 0px -40px 49px rgba(0, 0, 0, 0.06);
 .UpcomingEvents_img1{
     position: relative;
     .UpcomingEvents_img2{
@@ -121,7 +124,7 @@ color: #252947;
     }
 }
 .Customers_Card{
-    width: 593px;
+    width: 565px;
     height: 353px;
     background: #FFFFFF;
     border-radius: 20px;
@@ -160,10 +163,10 @@ color: #878787;
 width: 521px;
 }
 .Customers_Card_border{
-width: 576px;
+width: 560px;
 height: 4px;
 background: #3CDB97;
-margin-left: -15px;
+margin-left: -22px;
 margin-top: 110px;
 }}
 

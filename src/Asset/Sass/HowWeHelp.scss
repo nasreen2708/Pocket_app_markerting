@@ -46,6 +46,19 @@ height: 264px;
 background: #FFFFFF;
 box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.08);
 border-radius: 20px;
+margin-top: 10px;
+.HowWeHelp_num{
+  display: flex;
+  justify-content: space-between;
+  h1{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+margin-right: 5px;
+color: #E9F4FF;  }
+}
+
 h1{
     font-family: 'Mulish';
 font-style: normal;
@@ -68,6 +81,7 @@ color: #878787;
     margin-top: 100px;
     margin-bottom: 100px;
     padding-bottom: 50px;
+    padding-top: 50px;
     background: #F5F5F5;
 .Join-Us_head{
   font-family: "Mulish";
