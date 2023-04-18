@@ -31,7 +31,7 @@ import pocket from "../images/Group.svg"
 import roundpic from "../images/Ellipse 4 (2).svg"
 import roundshape from "../images/Ellipse 4 (3).svg"
 
-const Home = () => {
+const Homepage1 = () => {
     return (
         <>
             <div className="Pockets_marketing_container">
@@ -467,7 +467,7 @@ const Home = () => {
             </div>
 
             <div className="Pockets_marketing_container">
-                <Row>
+                <Row className="Pocktes_marketing_happy_customers">
                     <Col span={8}>
                         <div className="Pockets_marketing_michel">
                             <img src={michel} alt="images" />
@@ -564,4 +564,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Homepage1

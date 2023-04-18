@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Test from "./pages/Test";
-import Home from "./component/home";
+// import Test from "./pages/Test";
+import Homepage1 from "./component/homepage1";
 import Login from "./pages/Login";
 import Home from './pages/Home'
 import Blog from "./pages/Blog";
@@ -14,11 +14,11 @@ import Header from "./pages/Header";
 function App() {
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/Contactus" element={<Contactus/>} />
+          {/* <Route path="/Contactus" element={<Contactus/>} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
@@ -28,8 +28,8 @@ function App() {
           <Route path="/footer" element={<Footer />} />
           <Route path="/header" element={<Header />} />
         </Routes>
-      </BrowserRouter> */}
-      <Home />
+      </BrowserRouter>
+      <Homepage1 />
     </>
   );
 }
