@@ -5,6 +5,7 @@ import Homepage1 from "./component/homepage1";
 import Login from "./pages/Login";
 import Home from './pages/Home'
 import Blog from "./pages/Blog";
+import Contactus from "./pages/Contactus";
 import Blogdetails from "./pages/Blogdetails";
 import Aboutus from "./pages/Aboutus";
 import Newsarticle from "./pages/Newsarticle";
@@ -18,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />
-          {/* <Route path="/Contactus" element={<Contactus/>} /> */}
+          <Route path="/contactus" element={<Contactus />} />
           <Route path="/login" element={<Login />} />
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
